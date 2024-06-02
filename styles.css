@@ -172,16 +172,16 @@ section {
 
 @media (max-width: 800px) {
   #pricing {
-  flex-direction: column;
-     }
+    flex-direction: column;
+  }
 
-.product {
-  max-width: 300px;
+  .product {
+    max-width: 300px;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 10px;
-    }
   }
+}
 
 footer {
   margin-top: 30px;
