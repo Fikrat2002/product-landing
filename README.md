@@ -1,105 +1,64 @@
-# product-landing
-About The Project
-Product Name Screen Shot
+#  Online Flower Arrangment Product Page 🌺🌷
+## Project Description 📝
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+This product landing page is your ultimate destination for discovering and exploring our innovative solution. Crafted with HTML and CSS, it's designed to offer you a seamless browsing experience while showcasing the unique features and benefits of our product. Whether you're a developer, enthusiast, or curious consumer, this page serves as your go-to resource for understanding everything our product has to offer.
 
-Here's why:
 
-Your time should be focused on creating something amazing. A project that solves a problem and helps others
-You shouldn't be doing the same tasks over and over like creating a README from scratch
-You should implement DRY principles to the rest of your life 😄
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+## Demo 📸
 
-Use the BLANK_README.md to get started.
+- Take a glimpse of the page below: 
 
-(back to top)
+![landing page](#<img width="954" alt="Screenshot 2024-06-01 221517" src="https://github.com/Fikrat2002/product-landing/assets/168417613/babb9130-b89a-4a03-87c5-d6db3070d2a0">
+)
 
-Built With
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-Next
-React
-Vue
-Angular
-Svelte
-Laravel
-Bootstrap
-JQuery
-(back to top)
+## Technologies Used 🛠️
 
-Getting Started
-This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
+The technologies employed in this project include:
 
-Prerequisites
-This is an example of how to list things you need to use the software and how to install them.
+- HTML
+- CSS
 
-npm
-npm install npm@latest -g
-Installation
-Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services.
+## Installation 💻
 
-Get a free API Key at https://example.com
-Clone the repo
-git clone https://github.com/your_username_/Project-Name.git
-Install NPM packages
-npm install
-Enter your API in config.js
-const API_KEY = 'ENTER YOUR API';
-(back to top)
+To explore the project, follow these steps:
 
-Usage
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+1. Clone the repository to your local machine:
 
-For more examples, please refer to the Documentation
+```bash
+git clone git@github.com:Fikrat2002/product-landing.git
+```
 
-(back to top)
+2. Navigate to the cloned directory:
 
-Roadmap
- Add Changelog
- Add back to top links
- Add Additional Templates w/ Examples
- Add "components" document to easily copy & paste sections of the readme
- Multi-language Support
- Chinese
- Spanish
-See the open issues for a full list of proposed features (and known issues).
+```bash
+cd technical-document
+```
 
-(back to top)
+3. Open the index.html file in your web browser.
 
-Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+## Usage 🎯
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
+1. Clone the repository to your local machine.
+2. Open the index.html file in your web browser.
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
-Open a Pull Request
-(back to top)
+```bash
+git clone git@github.com:Fikrat2002/product-landing.git
+```
 
-License
-Distributed under the MIT License. See LICENSE.txt for more information.
+## Features ⭐
 
-(back to top)
+This online flower arrangement product landing page offers a distinctive experience through:
 
-Contact
-Your Name - @your_twitter - email@example.com
+- Concise and captivating descriptions of our flower arrangements, aiding customers in understanding each product's unique features and benefits.
+- Visually appealing design elements, including high-quality images and elegant layouts, to captivate users and enhance their browsing experience.
+- Intuitive navigation tools for seamless exploration, ensuring customers can easily find their desired flower arrangements and complete their purchase with ease.
 
-Project Link: https://github.com/your_username/repo_name
+## Author 👩‍💻
 
-(back to top)
+For inquiries or support, please contact:
 
-Acknowledgments
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+- Github: [Fikrat2002](https://github.com/Fikrat2002)
+- LinkedIn: [Khatira Fikrat](https://www.linkedin.com/in/khatira-fikrat-671404311)
+- Email: [Khatira Fikrat](fekratkhatira@gmail.com)
 
-Choose an Open Source License
-GitHub Emoji Cheat Sheet
-Malven's Flexbox Cheatsheet
-Malven's Grid Cheatsheet
-Img Shields
-GitHub Pages
-Font Awesome
-React Icons
-this is a product landing page build by css and html
