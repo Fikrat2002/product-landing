@@ -1,0 +1,210 @@
+:root {
+  --white: rgb(250, 245, 245);
+  --text: rgb(47, 47, 47);
+  --pale: rgb(249, 250, 250);
+  --purple: hsl(293, 37%, 81%);
+  --dark-purple: rgb(112, 8, 144);
+  --pink: hwb(0 70% 6% / 0.934);
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: var(--pale);
+  font-size: 18px;
+}
+
+#header-img {
+  width: 80px;
+  object-fit: contain;
+  background-color: var(--purple);
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: var(--purple);
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  padding: 0 10px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.the-product {
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#email-section {
+  margin-top: 100px;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 9px;
+  border-radius: 1px solid var(--purple);
+}
+
+#submit {
+  background-color: var(--purple);
+  cursor: pointer;
+}
+
+section::before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+section {
+  text-align: center;
+  margin: 40px 20px;
+  margin-top: 10px;
+}
+
+.icon {
+  color: var(--purple);
+  margin-right: 30px;
+}
+
+.par {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#features {
+  text-align: left;
+  max-width: 700px;
+  margin: auto;
+}
+
+.feature {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px;
+}
+
+@media only screen and (min-width: 900px) {
+  #nav-bar {
+    flex-direction: row;
+  }
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: solid var(--dark-purple);
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: var(--purple);
+  color: var(--dark-purple);
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 10px;
+}
+
+.product > p {
+  margin: px 0;
+  padding: 5px;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: var(--purple);
+  font-weight: 400;
+}
+
+.product > button:hover {
+  background-color: var(--pink);
+  transition: background-color 1s;
+}
+
+@media (max-width: 800px) {
+  #pricing {
+    flex-direction: column;
+  }
+
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+}
+
+footer {
+  margin-top: 30px;
+  background-color: var(--purple);
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  color: var(--text);
+}
+
+footer > ul > li {
+  padding: 0 10px;
+  color: var(--purple);
+}
+
+footer > span {
+  margin-top: 6px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 16px;
+  color: var(--text);
+}
