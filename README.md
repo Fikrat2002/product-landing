@@ -11,6 +11,8 @@ This product landing page is your ultimate destination for discovering and explo
 ![landing page](#<img width="954" alt="Screenshot 2024-06-01 221517" src="https://github.com/Fikrat2002/product-landing/assets/168417613/babb9130-b89a-4a03-87c5-d6db3070d2a0">
 )
 
+## Deployment
+- https://fikrat2002.github.io/product-landing/
 
 ## Technologies Used 🛠️
 
@@ -32,7 +34,7 @@ git clone git@github.com:Fikrat2002/product-landing.git
 2. Navigate to the cloned directory:
 
 ```bash
-cd technical-document
+cd product-landing
 ```
 
 3. Open the index.html file in your web browser.

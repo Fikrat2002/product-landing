@@ -192,6 +192,8 @@ footer {
 footer > ul {
   display: flex;
   justify-content: flex-end;
+  list-style: none;
+  color: var(--text);
 }
 
 footer > ul > li {
